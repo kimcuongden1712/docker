@@ -1,4 +1,4 @@
-?��danh tag latest
+danh tag latest
 danh tag va publish to dockerhub
 Work with container
     Create container with name
@@ -12,6 +12,7 @@ Work with container
     Remove containers
     Using volumes store data container
     Share sourc
+        docker run -dp 4200:4200 -v %cd%:/app --name angular2 angular
         docker run -dp 4202:4200 -v //d/Git/docker/angular-app-docker:/app --name angular3 angular
         docker run -dp 4200:4200 --mount type=bind,source="//d/Git/docker/angular-app-docker",target=/app --name angular angular
 Q&A docker
